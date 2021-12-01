@@ -1,0 +1,8 @@
+[
+  "function summonMoloch(address[] _summoner, address[] _approvedTokens, uint256 _periodDuration, uint256 _votingPeriodLength, uint256 _gracePeriodLength, uint256 _proposalDeposit, uint256 _dilutionBound, uint256 _processingReward, uint256[] _summonerShares) returns (address)",
+  "function template() view returns (address)",
+  "function daos(address) view returns (bool)",
+  "function registerDao(address _daoAdress, string _daoTitle, string _http, uint256 _version) returns (bool)",
+  "event SummonComplete(address indexed moloch, address[] summoner, address[] tokens, uint256 summoningTime, uint256 periodDuration, uint256 votingPeriodLength, uint256 gracePeriodLength, uint256 proposalDeposit, uint256 dilutionBound, uint256 processingReward, uint256[] summonerShares)",
+  "event Register(uint256 daoIdx, address moloch, string title, string http, uint256 version)"
+]
